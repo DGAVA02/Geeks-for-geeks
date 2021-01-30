@@ -1,0 +1,9 @@
+	def reverse_digit(self, n):
+	    ans=list(str(n))
+	    new=ans[::-1]
+	    if new[0]=='0':
+	        new=''.join(new)
+	        return int(new)
+        else:
+            new=''.join(new)
+            return new
