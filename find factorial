@@ -1,0 +1,9 @@
+    def factorial (self, N):
+        # code here
+        if N==0 :
+            return "1"
+        else :
+            fact = 1
+            for i in range(1,N+1):
+                fact = fact * i
+        return fact
