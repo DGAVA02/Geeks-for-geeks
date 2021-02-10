@@ -1,0 +1,11 @@
+def max_sequence(arr):
+    maxend=0
+    maxfar=0
+    s=len(arr)
+    for i in range (0,s):
+        maxend=maxend+arr[i]
+        if maxend<0:
+            maxend=0
+        elif maxfar<maxend:
+            maxfar=maxend
+    return maxfar
